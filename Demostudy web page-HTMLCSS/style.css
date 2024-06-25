@@ -1,0 +1,409 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+nav ul , nav li {
+    list-style: none;
+}
+.navbar-container  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+
+}
+.navbar-container  a:hover {
+    color: #ffffff95;
+}
+
+.top-navbar{
+    position:fixed;
+    top: 0;
+    width: 100%;    
+    background-color: rgba(87, 80, 80, 0.43);
+    z-index: 30;
+}
+.navbar-container{
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.caption-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.7;
+}
+.right-section{
+    flex: 2 ; 
+    margin-right: 35px;
+}
+.right-section ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nubmer-nav{
+    margin-left: 95px;
+}
+.nav-option-s{
+    gap: 0 35px;
+    margin-right: 76px;
+}
+.header{
+    max-width: 100%;
+}
+.header img{
+    width:100%;
+    height: 670px;
+    position: relative;
+    
+}
+.container-header{
+    max-width: 1087px;
+    margin:auto;
+}
+.first-half-header{ 
+    position: absolute;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.header-half1-top h1{
+    color: rgb(47, 113, 135);
+    font-family: 'Bodoni Moda', serif;
+    font-size: 7.8rem;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.header-half1-center{
+    align-items: center ;
+    margin: 90px 0px 100px 0px;
+}
+.header-half1-center h2{
+    font-weight: 400;
+    font-size: 23px;
+    color: rgb(240 248 255 / 92%);
+}
+
+.header-buttons button{
+    margin: 30px 10px 30px 0px;
+    font-size: 18px;
+    border-radius: 7px;
+    color:#fff;
+}
+
+.guarantee-off-btn{
+    
+    background-color:  rgb(60, 147, 176);
+    border: none;
+    padding: 19px 27px;
+}
+.guarantee-off-btn:hover{
+    background-color:  rgb(47, 113, 135);
+    cursor: pointer;
+}
+.download-btn{
+    background-color: rgba(75, 75, 75, 0);
+    border-color: #fff;
+    padding: 17px 37px;
+}
+.download-btn:hover{
+    background-color: #fff;
+    color:black;
+    cursor: pointer;
+}
+.header-half1-bottom{
+    width: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20 0px
+}
+.first-p{
+    color: #ffffffe5;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.last-p{
+    padding: 5px 0px;
+    color: #ffffffe3;
+    font-size: 20px;
+}
+.line{
+    width: 200px;
+    background-color: #fff;
+    height: 1px;
+}
+.Reasons-container{
+    width: 100%;
+    height: 670px;
+    background-color: #000000e8;
+}
+.reason-centering{
+    max-width: 1087px;
+    margin:auto;
+}
+.reasons-title  h1{
+    font-size: 3rem;
+    color: #ffffffc1;
+    font-weight:200;
+    padding-top: 70px;
+    
+}
+.reason-cards-container{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.reason-card{
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 23.9%;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.reason-card h2{
+    font-size: 20px;
+    color: #ffffffc1;
+    padding: 20px;
+    font-size: 22px;    
+}
+.reason-card p{
+    color: #ffffffc1;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.reason-card i{
+    color: #5ca1d9c1;
+    padding-left: 100px;
+    font-size: 60px;
+}
+.benefits-container{
+    width:100%;
+    height: 800px;
+    background-image: url("./images/benefit.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.benefit-centering{
+    max-width: 840px;
+    margin: auto;
+}
+.benefit-centering h2{
+    font-size:3.7rem;
+    color: #ffffffe5;
+    font-weight: 300;
+    padding: 100px 0px 10px 0;
+}
+.benefits-pragraphs{
+    display: flex;
+    flex-direction: column;
+}
+.benefit-prgrph{
+    display: flex;
+    justify-content: space-between;
+
+}
+.benefit-prgrph h3{
+    color: #fff;
+    font-weight: 800;
+    font-size: 23px;    
+}
+.benefit-prgrph p{
+    display: block;
+    color: #fff;
+    width: 56%;
+    font-weight: 100;
+    font-size: 20px;
+}
+.long-line{
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+    margin: 28px 0px;
+
+}
+.our-advantages-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(237, 237, 237);
+}
+.our-advantages-container{
+    max-width: 1087px;
+    margin:auto;
+}
+
+.first-h1{
+    font-weight: 400;
+    font-size: 3.4rem;
+    padding: 90px 0px;
+}
+.introdoction-advantage-pragrph{
+    font-weight: 400 !important;
+    font-size: 22px;
+    word-spacing: 3px;
+
+}
+.resumation-pragrph{
+    font-size:19px;
+}
+.font{
+    font-family: 'Bodoni Moda', serif;
+}
+.our-adventage-image{
+    width: 100%;
+    margin:40px 0px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.features-ul{
+   margin-left: 25px;
+}
+.features-ul li{
+    padding: 5px;
+    font-size: 18px;
+}
+.btn-selection{
+    display: flex;
+    align-items: center;
+}
+.more-feature-btn{
+    padding: 1.2rem !important;
+    background-color: #66a0c0 ;
+    border: none;
+    border-color: #66a0c0;
+    box-shadow: 0 2px 2px 0 #66a0c0;
+    border-radius: 5px;
+
+}
+.more-feature-btn:hover{
+    background-color: #3e8fbb;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.inset-btn{ 
+    padding: 13px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;  
+    border-radius: 6px;
+}
+.course-program{
+    margin: 200px 0px 100px 0px;
+    background-color: rgba(174, 179, 177, 0.603);
+    border-radius: 30px;
+    padding: 40px;
+}
+.course-program h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+.course-program  p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px 0px;
+}
+.speakers-h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 138px 0px 50px 0px;
+}
+.speakers-cardss{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.speaker-card{
+    width:24%;
+    margin-bottom: 150px;
+}
+.speaker-image{
+    width: 100%;
+    
+}
+.speaker-image-parent{
+    position: relative;
+}
+.left-on-image{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.left-on-image h2{
+    color: #fff;
+    padding: 10px 0px 7px 10px;
+}
+.left-on-image p{
+    padding: 0px 0px 12px 12px;
+    font-size: 20px;
+    color: #fff;
+}
+.speaker-caption h3{
+    margin: 20px 0px;
+}
+.speaker-caption p{
+    color: #44414159;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-section{
+
+    width: 100%;
+    height: 680px;
+    background-color: rgb(36, 38, 37);
+
+}
+.footer-container{
+    max-width: 1087px;
+    margin:auto;
+}
+.footer-line{
+    width:100%;
+    height: 1px;
+    background-color: #fffbfbc5;
+    
+}
+.support{
+   padding: 100px 0px 90px 0px;
+}
+.first-half-footer,.sec-half-footer {
+    width: 100%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-logo, .legal, .company{
+    flex-basis: 30%;
+}
+.legal h3, .company h3{
+    font-weight: 300;
+    color: #878787e8;
+    margin-bottom: 25px;
+}
+.legal li, .company p, .footer-number,.copyright h4 , .apps-icon{
+    list-style-type: none;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 18px;
+}
+.icon{
+    padding: 0px 10px;
+    font-size: 30px;
+}
