@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="container px-4 mx-auto my-5">
+      <div class="grid grid-cols-12 gap-x-4">
+        <div class="col-span-8 space-y-8" id="products"></div>
+        <div class="col-span-4 ">
+          <div class="bg-white  space-y-5 shadow  sticky top-2">
+            <div class="flex justify-between items-center p-4">
+              <div class="flex justify-start items-center gap-x-1">
+                <span> قیمت کالا </span>
+                <span id="totalQuantity"> </span>
+              </div>
+              <div id="totalPrice"></div>
+            </div>
+            <button class="w-full bg-green-600 text-white text-sm font-bold text-center py-3">
+                ثبت سفارش
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./test.js"></script>
+  </body>
+</html>
